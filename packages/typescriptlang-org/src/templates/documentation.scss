@@ -1,13 +1,11 @@
 @import "../style/globals.scss";
 
 #beta {
-  background: repeating-linear-gradient(
-    45deg,
-    #9b9a4e,
-    #9b9a4e 10px,
-    #6e6a33 10px,
-    #6e6a33 20px
-  );
+  background: repeating-linear-gradient(45deg,
+      #9b9a4e,
+      #9b9a4e 10px,
+      #6e6a33 10px,
+      #6e6a33 20px);
   background-color: "#c63131";
   text-align: center;
   color: white;
@@ -32,7 +30,7 @@
   }
 
   // Page title
-  & > h1 {
+  &>h1 {
     font-size: 3.5rem;
     line-height: 3.5rem;
     font-weight: 400;
@@ -136,6 +134,7 @@
     }
 
     .like-dislike-subnav {
+
       #like-button,
       #dislike-button {
         cursor: pointer;
@@ -478,6 +477,6 @@
   overflow: auto;
   max-height: 80vh;
   ul {
-    padding-left: 0.5em !important;
+    padding-left: .5em !important;
   }
 }
